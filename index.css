@@ -1,0 +1,122 @@
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+.bola {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+#sorteados {
+  margin-bottom: 20px;
+}
+
+.cartela {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+table {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.cartela th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.cartela td {
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.cartela td.numero {
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+}
+
+.cartela td.numero:nth-child(13) {
+  width: 50px;
+  height: 50px;
+  font-size: 36px;
+}
+
+#cartelas {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#botões {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#botões button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4caf50;
+  cursor: pointer;
+}
+
+#botões button:hover {
+  background-color: #45a049;
+}
+
+#botões button:active {
+  background-color: #3e8e41;
+}
+
+#botões button:focus {
+  outline: none;
+}
+p {
+  padding-left: 4px;
+}
+
+.divParabens {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(56, 185, 73);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
